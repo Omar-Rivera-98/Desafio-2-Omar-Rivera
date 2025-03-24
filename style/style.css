@@ -11,19 +11,91 @@ nav img{
 
 nav ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-family: Winky Sans;
 }
+
 a {
     text-decoration: none;
     color: black;
     font-size: 30px;
 }
 
+a:hover{
+    text-decoration: underline;
+    font-size: 35px;
+}
+
 header{
-    background-color: #fdfd88;
+    background-color: #fff45a;
     width: 100%;
     height: 100%;
+    padding-top: 2px;
+}
+
+body{
+    background-color: rgb(255, 217, 91);
+    margin: 0px;
+}
+
+.Intro h1{
+    font-size: 30px;
+    font-family: Winky Sans;
+    text-align: center;
+    margin: 20px;
+    
+}
+.cards{
+    margin-left: 750px;
+    width: 400px;
+    border-radius: 20px;
+    font-family: Winky Sans;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
     padding: 10px;
+}
+
+.cards p{
+    margin: 0px;
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(255, 240, 107);
+    font-family: Winky Sans;
+}
+
+.card p{
+    margin: 5px;
+}
+.card img{
+    width: 300px;
+    border-radius: 20px;
+}
+.comprar{
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-family: Winky Sans;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.comprar:hover{
+    background-color: white;
+    color: black;
+}
+.comprar a{
+    text-decoration: none;
 }
