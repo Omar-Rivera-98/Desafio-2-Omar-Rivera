@@ -73,6 +73,9 @@ body{
     border-radius: 20px;
     background-color: rgb(255, 240, 107);
     font-family: Winky Sans;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card p{
