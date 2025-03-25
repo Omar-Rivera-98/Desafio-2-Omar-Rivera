@@ -165,3 +165,7 @@
   .inside img{
     width: 500px;
   }
+  .texto{
+    font-size: 30px;
+    text-align: justify;
+  }
