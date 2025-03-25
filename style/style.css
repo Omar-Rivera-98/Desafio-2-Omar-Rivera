@@ -18,13 +18,13 @@
       font-family: Winky Sans;
   }
   
-  a {
+  nav a {
       text-decoration: none;
       color: black;
       font-size: 30px;
   }
   
-  a:hover{
+  nav a:hover{
       text-decoration: underline;
       font-size: 35px;
   }
@@ -52,6 +52,11 @@
       display: flex;
       justify-content: center;
   }
+  .testidk2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
   .cards{
       width: 400px;
       border-radius: 20px;
@@ -79,7 +84,16 @@
       padding: 0px;
   }
   
-  
+  .tarjetaProd a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .tarjetaProd a:hover{
+    text-decoration: none;
+    color: rgb(162, 90, 255);
+  }
+
   .cards p{
       margin: 0px;
   }
@@ -114,4 +128,40 @@
   }
   .comprar a{
       text-decoration: none;
+  }
+  .foot{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: Winky Sans;
+    font-size: 15px;
+    background-color: gray;
+  }
+  .Bienvenidas{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Winky Sans;
+  }
+  .helloworld{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Winky Sans;
+  }
+  .inside{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Winky Sans;
+  }
+  .content{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Winky Sans;
+  }
+  .inside img{
+    width: 500px;
   }
